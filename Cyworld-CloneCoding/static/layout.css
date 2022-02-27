@@ -99,20 +99,24 @@ p {
 .left_side__container {
   display: flex;
   flex-direction: column;
-  flex: 0.4;
+  flex: 0.3;
   align-items: center;
 }
 
 .right_side__container {
   display: flex;
   flex-direction: column;
-  flex: 0.9;
+  flex: 0.8;
+  margin-right: 15px;
 }
 
 .menu__area {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  flex: 0.11;
+  width: 100%;
+  top: 110px;
+  left: 1178px;
 }
 
 /* left side - today, item container */
@@ -166,6 +170,8 @@ p {
   border: solid 1px;
   border-color: var(--color--light-dark-grey);
   border-radius: 8px;
+  box-shadow: 1px 0px 1px var(--color--grey);
+  z-index: 1000;
 }
 
 /* minihomepi-title */
