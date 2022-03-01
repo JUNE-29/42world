@@ -17,6 +17,7 @@
   --color--marine-blue: #279dc4;
   --color--blue: #1e90ff;
   --color--dark-blue: #1f5f9b;
+  --color--black: #000;
 }
 
 /* Universal tags */
@@ -31,6 +32,7 @@ li {
 
 a {
   text-decoration: none;
+  color: var(--color--black);
 }
 
 p {
