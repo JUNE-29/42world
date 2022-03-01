@@ -101,6 +101,13 @@
   color: var(--color--white);
 }
 
+/* minihomepi */
+.minihompi_board_box {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 490px;
+}
+
 /* minihomepi - Updated news */
 
 .updated_news_count__container {
@@ -231,4 +238,66 @@
   padding-top: 3px;
   width: 100%;
   object-fit: cover;
+}
+
+/* minihomepi - follower comments */
+
+#home_comments__area {
+  display: flex;
+  padding: 10px;
+  margin: 10px 15px;
+  background-color: var(--color--white-grey);
+  border: solid 1px var(--color--light-dark-grey);
+  justify-content: center;
+}
+
+#home_comments_write__box > label {
+  color: var(--color--marine-blue);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px 5px;
+}
+
+#home_comments_write__box > input {
+  width: 400px;
+  height: 17px;
+}
+
+#home_comments_write__box > button {
+  background-color: var(--color--white);
+  font-weight: 700;
+  border: solid 1px var(--color--black-grey);
+}
+
+.comments__list {
+  padding: 0px;
+  margin: 10px 15px;
+}
+
+.comments__list > li {
+  display: flex;
+  font-size: 13px;
+  border-bottom: solid 1px var(--color--light-dark-grey);
+  align-items: center;
+}
+
+.followers_comments {
+  display: flex;
+  padding: 3px;
+}
+
+.comments_date {
+  display: flex;
+  font-size: 11px;
+  color: var(--color--dark-grey);
+  padding: 3px;
+}
+
+.comment_del_btn {
+  display: flex;
+  border: none;
+  background-color: var(--color--white);
+  font-size: 11px;
+  color: var(--color--dark-grey);
+  cursor: pointer;
 }
