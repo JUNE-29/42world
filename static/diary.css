@@ -49,6 +49,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #diary_calendar {
@@ -98,8 +100,6 @@
 .journals {
   width: 500px;
   height: 400px;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .today_journal {
