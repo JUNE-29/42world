@@ -7,7 +7,6 @@
   overflow-y: auto;
   overflow-x: hidden;
   height: 470px;
-  width: 520px;
 }
 
 .guestbook_board {
@@ -104,17 +103,3 @@
   flex: 1;
   padding-left: 10px;
 }
-
-/* .secret_alert {
-  display: none;
-  font-size: 13px;
-  color: var(--color--orange);
-}
-
-.secret_alert p {
-  padding: 5px;
-}
-
-.secret_alert i {
-  color: var(--color--light-red);
-} */
