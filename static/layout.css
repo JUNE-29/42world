@@ -15,6 +15,7 @@
   --color--orange-yellow: #ffd20a;
   --color--light-blue: #acd2dd;
   --color--marine-blue: #279dc4;
+  --color--dark-marine-blue: #117799;
   --color--blue: #1e90ff;
   --color--dark-blue: #1f5f9b;
   --color--black: #000;
@@ -184,6 +185,9 @@ p {
   align-items: center;
   margin-left: 10px;
   padding-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color--dark-marine-blue);
 }
 
 .minihompi__url {
