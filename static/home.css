@@ -269,12 +269,12 @@
   border: solid 1px var(--color--black-grey);
 }
 
-.comments__list {
+#comments__list {
   padding: 0px;
   margin: 10px 15px;
 }
 
-.comments__list > li {
+#comments__list > li {
   display: flex;
   font-size: 13px;
   border-bottom: solid 1px var(--color--light-dark-grey);
