@@ -62,7 +62,7 @@ p {
 }
 
 .bookcover {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   width: 900px;
   height: 600px;
@@ -99,6 +99,11 @@ p {
 
 /* container */
 
+.book__container {
+  display: flex;
+  position: relative;
+}
+
 .left_side__container {
   display: flex;
   flex-direction: column;
@@ -118,8 +123,8 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  top: 110px;
-  left: 1178px;
+  top: 30px;
+  left: 860px;
 }
 
 /* left side - today, item container */
